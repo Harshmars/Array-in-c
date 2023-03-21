@@ -9,7 +9,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int key,flag=0;
-    printf("enter which element is to be removed from the array :  ");
+    printf("enter element to be find :  ");
     scanf("%d",&key);
     for(int i=0;i<size;i++){
         if(arr[i]==key){
