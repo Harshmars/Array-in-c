@@ -33,4 +33,10 @@ int main(){
 
     input_arr(arr,row,column);
     print_arr(arr,row,column);
+    
+    for(int i=0;i<row;i++){
+        free(arr[i]);
+    }
+    free(arr);
+    return 0;
 }
